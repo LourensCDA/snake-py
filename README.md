@@ -84,7 +84,7 @@ Features still to be added:
 - [ ] Game over when the snake runs into its own body
 - [ ] Game over notification instead of an instant silent reset
 - [ ] Pause function
-- [ ] Change the snake head color to green
+- [x] Change the snake head color to green
 
 Already working:
 
