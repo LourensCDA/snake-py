@@ -87,11 +87,10 @@ while True:
 
     pygame.draw.rect(window, "yellow", food)
 
-    i = 0
-    for snake_part in snake:
-        if i == 0:
+    for index, snake_part in enumerate(snake):
+        # check if first item in index, if it is change head to green
+        if index == 0:
             pygame.draw.rect(window, "green", snake_part)
-            i += 1
             continue
         pygame.draw.rect(window, "cyan", snake_part)
 
